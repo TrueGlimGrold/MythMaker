@@ -1,0 +1,51 @@
+﻿<div class="main-content">
+    <div class="section-main">
+        <h2 class="main-alert">This is an alert</h2>
+
+        <div class="section-title">
+            <h1>@Model.CurrentCategory.Name</h1>
+            <div class="breadcrumbs">
+                <div class="breadcrumb">
+                    <a asp-controller="Home" asp-action="Index" class="breadcrumb-label">
+                        <span itemprop="name">Home</span>
+                    </a>
+                </div>
+                <div class="middle-slash">
+                    <p> / </p>
+                </div>
+                <div>
+                    <a asp-controller="Category" asp-action="Index" asp-route-id="@Model.CurrentCategory.Id" class="breadcrumb-label" itemprop="item">
+                        <span itemprop="name">@Model.CurrentCategory.Name</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="products">
+            @foreach (var product in Model.CurrentCategory.Products)
+            {
+                <div class="product-display">
+                    <a asp-controller="Product" asp-action="Index" asp-route-id="@product.Id"><img src="@product.ImagePath"> </a>
+                    <div class="product-display-text">
+                        <h2>@product.Name</h2>
+                        <p>@product.Description</p>
+                        <h3>@product.Price $</h3>
+                    </div>
+                    <div class="product-display-buttons">
+                        @* <div class="quantity-box ">
+                            <button type="button" class="button"> <span class="is-srOnly"></span><b>-</b></button>
+                            <input type="text" id="txtAcrescimo" class="qty form-input form-input--incrementTotal" value="1">
+                            <button type="button" class="button"><span class="is-srOnly"></span><b>+</b></button>
+                        </div> *@
+                        <!-- Consider adding a kart icon -->
+                        <form asp-action="AddToCart" asp-controller="Cart" method="post">
+                            <input type="hidden" name="productId" value="@product.Id" />
+                            <button type="submit" class="add-to-cart">Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,51 @@
+﻿<div class="main-content">
+    <div class="section-main">
+        <div class="cart-main">
+            <h2 class="main-alert">This is an alert</h2>
+            <h1>Your Cart (2 items)</h1>
+            <hr>
+            @foreach (var cartItem in Model.CartItems)
+            {
+                var product = cartItem.Product;  // Access the related product directly
+
+                if (product != null)
+                {
+                    <div class="cart-item">
+                        <img src="@product.ImagePath" alt="@product.Name">
+                        <div class="right-column">
+                            <h2>@product.Name</h2>
+                            <h3>@product.Price.ToString("C")</h3>
+                            <div class="quantity-box">
+                                <button type="button" class="button">-</button>
+                                <input type="text" class="qty" value="@cartItem.Quantity">
+                                <button type="button" class="button">+</button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            }
+            else
+            {
+            <p>Your cart is empty.</p>
+            }
+        </div>
+
+            <h1>Total: CA$19.95</h1>
+            <hr>
+            <div class="receipt">
+                <p>Subtotal:</p>
+                <p class="r-subtotal align-right">CA$19.95</p>
+                <p>Shipping:</p>
+                <p class="r-shipping align-right">Add Info</p>
+                <p>Coupon Code:</p>
+                <p class="r-coupon align-right">Add Coupon</p>
+                <p>Gift Certificate:</p>
+                <p class="r-gift align-right">Gift Certificate</p>
+                <p>Grand total:</p>
+                <p class="r-total align-right">CA$19.95</p>
+            </div>
+            <button type="button" class="checkout-button"><span class="button"></span><b>Checkout</b></button>
+        </div>
+    </div>
+</div>

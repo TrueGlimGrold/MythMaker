@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model Product
+
+<form method="post" enctype="multipart/form-data">
+    <div class="border">
+        <div class="row pb-2">
+            <h2 class="text-primary">Create Product</h2>
+            <hr />
+        </div>
+        <div class="form-row">
+            <label asp-for ="Name" ></label>
+            <input asp-for="Name" class="form-control"/>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-row">
+            <label asp-for="DisplayOrder"></label>
+            <input asp-for="DisplayOrder" class="form-control" />
+            <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+        </div>
+        <div class="form-row">
+            <label asp-for="Price"></label>
+            <input asp-for="Price" class="form-control" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="form-row">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" class="form-control" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="form-row">
+            <label asp-for="ImagePath"></label>
+            <input type="file" class="form-control" name="file"/>
+        </div>
+        <div class="form-row">
+            <label asp-for="CategoryId"></label>
+            <select asp-for="CategoryId" asp-items="ViewBag.CategoryList" class="form-control">
+                <option disabled selected>--Select Category--</option>
+            </select>
+            <span asp-validation-for="CategoryId" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:150px">Create</button>
+        <a asp-controller="Product" asp-action="List" class="">
+            <i></i> View Products
+        </a>
+    
+    </div>
+                
+</form>
+

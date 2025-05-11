@@ -1,0 +1,704 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+ * cormorant fonts 
+ .cormorant-garamond-light {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-medium {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-semibold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-bold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-light-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-regular-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-medium-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-semibold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-bold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: italic;
+  } 
+
+ * mukta fonts 
+ .mukta-extralight {
+    font-family: "Mukta", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .mukta-light {
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .mukta-regular {
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .mukta-medium {
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .mukta-semibold {
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .mukta-bold {
+    font-family: "Mukta", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .mukta-extrabold {
+    font-family: "Mukta", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  } 
+
+p {
+    font-size: 0.8em;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+body {
+    font-family: "Mukta", sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 110px;
+    background-color: #ffd9f5;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+.section-main button {
+    padding: 0.5em 2em;
+    border-radius: 2em;
+    border-color: #0f0099;
+    background-color: #1200af;
+    border-style: ridge;
+    color: white;
+    margin-bottom: 2em;
+}
+
+.container {
+    background-color: #F904B9;
+    padding: 0.3em 0.6em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #F904B9;
+}
+
+h3 {
+    color: #1200af;
+    margin: 0px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.index-advertisments {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+    .index-advertisments a {
+        width: 33.3333333%;
+    }
+
+    .index-advertisments img {
+        width: 100%;
+        height: auto;
+    }
+
+.outline-text {
+    text-shadow: -1px -1px 0 black, /* Top-left shadow */
+    1px -1px 0 black, /* Top-right shadow */
+    -1px 1px 0 black, /* Bottom-left shadow */
+    1px 1px 0 black; /* Bottom-right shadow */
+}
+
+.main-text-slide {
+    background-color: #a413b380;
+    position: absolute; /* Remove it from the normal document flow */
+    z-index: 10; /* Place it in front */
+    left: 15%;
+    right: 15%;
+    top: 0;
+    bottom: 30%;
+    display: flex; /* Center the text */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white; /* Adjust text color for visibility */
+    padding: 10px;
+}
+
+.main-text-slid p {
+    content: ""
+}
+
+.kart-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.left-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 4em;
+    padding-right: 1em;
+    height: fit-content;
+}
+
+.kart-icon {
+    width: 30px;
+    height: fit-content;
+    padding-right: 0.2em;
+}
+
+.hamburgerBtn {
+    font-size: 2em;
+    background-color: #F904B9;
+    border: none;
+}
+
+.youtube-icon {
+    width: 40px;
+    margin-top: 2em;
+}
+
+.footer-title h1 {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.footer-title h2 {
+    margin: 0px;
+    margin-bottom: 2em;
+}
+
+.footer-section-legal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section-contact {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .footer-section-contact p {
+        margin: 5px;
+    }
+
+.footer-section-legal a {
+    margin: 5px;
+}
+
+.user-icon {
+    width: 20px;
+    margin-right: 0.5em;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon-nav {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    width: 80%;
+    text-align: left;
+    margin-left: 0;
+}
+
+.primaryNav li {
+    list-style-type: none;
+    margin-bottom: 1.5em;
+}
+
+    .primaryNav li a,
+    .primaryNav li a:hover,
+    .primaryNav li a:focus,
+    .primaryNav li a:active {
+        font-size: 1.2em;
+    }
+
+.medium-large-screen { 
+    display: none;
+}
+
+.small-screen {
+    display: block;
+}
+
+.main-alert {
+    color: red;
+    text-align: center;
+}
+
+.footer-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-sections div img {
+    width: 100%;
+    padding: 0%;
+}
+
+.product-sections .image-wrapper {
+    width: 100%; /* The image container width */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.image-wrapper {
+    width: 80%;
+}
+
+.image-link {
+    margin: 10%;
+}
+
+.product-sections div h2 {
+    color: rgb(255, 255, 255);
+    position: absolute; /* Remove it from the normal document flow */
+    z-index: 10; /* Place it in front */
+    top: 10%;
+    left: 15%;
+}
+
+.product-sections div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 0px;
+}
+
+    .product-sections div button {
+        position: absolute; /* Remove it from the normal document flow */
+        z-index: 10; /* Place it in front */
+        top: 20%;
+        left: 15%;
+    }
+
+.copyright-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.copyright-text {
+    font-size: 0.6em;
+}
+
+.section-title {
+    background-color: #1200af;
+    padding: 10px;
+}
+
+    .section-title h1 {
+        color: white;
+        text-align: center;
+        font-size: 2em;
+    }
+
+.breadcrumbs li {
+    list-style: none;
+}
+
+.breadcrumbs {
+    display: none;
+}
+
+.middle-slash {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.cart-num-container {
+    width: fit-content;
+    padding-left: 5%;
+}
+
+.product-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .product-display a {
+        width: 60%;
+    }
+
+.product-display-text p {
+    text-align: center;
+    padding: 0em 3em;
+}
+
+.product-display-text h2 {
+    text-align: center;
+}
+
+.quantity-box {
+    display: inline-block; /* Prevent stretching */
+    border-style: groove;
+    padding: 0.5em;
+    border-radius: 2em;
+    margin: 0.5em 0;
+}
+
+    .quantity-box input {
+        border-style: none;
+        text-align: center;
+        width: 30px;
+        flex-shrink: 0; /* Prevent shrinking */
+    }
+
+    .quantity-box button {
+        background-color: white;
+        color: #888;
+        border-style: none;
+        margin-bottom: 0px;
+        padding: 0.5em;
+    }
+
+.product-display-buttons {
+    display: flex; /* Flexbox container for the whole section */
+    justify-content: center; /* Center the contents horizontally */
+    align-items: center;
+    gap: 1em; /* Add space between elements */
+}
+
+.product-display-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.receipt {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.align-right {
+    justify-self: end;
+    text-decoration: underline;
+}
+
+.cart-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .cart-main hr {
+        width: 80%;
+        margin: 10%;
+    }
+
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart-main .cart-item img {
+    width: 30%;
+}
+
+/* styling for product pages */
+
+.product-title-section h2,
+.product-title-section h3 {
+    padding-left: 5%;
+}
+
+.section-main img {
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 90%;
+}
+
+.add-to-wishlist {
+    margin-left: 5%;
+}
+
+.product-information {
+    margin-left: 5%;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-to-cart {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 5%;
+}
+
+.product-description {
+    margin-left: 5%;
+}
+
+.reviews {
+    margin-left: 5%;
+}
+
+.related-products {
+    margin-left: 5%;
+}
+
+    .related-products div h3 {
+        margin-bottom: 2em;
+    }
+
+button.add-to-wishlist {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-color: #0f0099;
+    border-style: solid;
+    color: #0f0099;
+    border-radius: 2em;
+    padding: 0.4em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* handle the navigation menu */
+
+.primaryNav {
+    display: none;
+}
+
+.primaryNav-large {
+    display: none;
+}
+
+.primaryNav.open {
+    display: block;
+}
+
+.main-content.open {
+    display: none;
+}
+
+.hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+.hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+.hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+.hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+/* Handle the sign up menu */
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 200;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* Adjust the form spacing */
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+    .modal-content form label,
+    .modal-content form button {
+        margin-bottom: 10px;
+    }
+
+#signInPassword {
+    margin-bottom: 10px;
+}
+
+/* Cart dropdown */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 200px;
+    z-index: 1;
+}
+
+    .dropdown-content ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .dropdown-content ul li {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+            .dropdown-content ul li:last-child {
+                border-bottom: none;
+            }
+
+    .dropdown-content button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: #0f0099;
+        color: white;
+        cursor: pointer;
+    }
+
+        .dropdown-content button:hover {
+            background-color: #0d0088;
+        }

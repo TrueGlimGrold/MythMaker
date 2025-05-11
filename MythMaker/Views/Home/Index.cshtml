@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="main-content">
+    <h2 class="main-alert">This is an alert</h2>
+
+    <div class="index-advertisments">
+        <div class="main-text-slide">
+            <p class="outline-text small-screen">
+                Welcome to <strong>MythMaker</strong>
+            </p>
+            <p class="outline-text medium-large-screen">
+                Welcome to <strong>MythMaker</strong>, where fantasy comes alive! Discover unique, 
+                digital companions—from wise dragons to playful unicorns—each crafted to inspire.
+                Whether you're seeking courage, adventure, or a bit of magic, 
+                MythMaker offers mythical friends ready to bring wonder to your world.
+                Start your journey, explore our enchanted catalog, 
+                and find the magical companion you've been dreaming of!
+            </p>
+        </div>
+        <a href="???"><img src="images/highlights/bird-1.jpg"></a>
+        <a href="???"><img src="images/highlights/dragon-8.jpg"></a>
+        <a href="???"><img src="images/highlights/turtle-2.jpg"></a>
+    </div>
+    <div class="product-sections">
+        @foreach (var obj in Model.Categories)
+        {
+            <a asp-controller="Category" asp-action="Index" asp-route-id="@obj.Id" class="image-link">
+                <div class="product-section-1">
+                    <h2 class="outline-text">@obj.Name</h2>
+                    <button>BUY NOW</button>
+                    <div class="image-wrapper">
+                        <img src="@obj.ImagePath" alt="Section 1">
+                    </div>
+                </div>
+            </a>
+        }
+    </div>
+</div>

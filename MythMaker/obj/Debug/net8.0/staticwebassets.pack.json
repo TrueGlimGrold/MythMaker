@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MythMaker.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MythMaker.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\css\\base.css",
+      "PackagePath": "staticwebassets\\css\\base.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\css\\large.css",
+      "PackagePath": "staticwebassets\\css\\large.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\css\\medium.css",
+      "PackagePath": "staticwebassets\\css\\medium.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\categories\\01715c2f-30ca-40ca-86ac-6c79e50d6363.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\01715c2f-30ca-40ca-86ac-6c79e50d6363.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\categories\\36922b8d-6595-4557-a2c3-51963b3861d6.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\36922b8d-6595-4557-a2c3-51963b3861d6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\categories\\99583a92-910c-42d1-b5b4-582e2fa0c49b.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\99583a92-910c-42d1-b5b4-582e2fa0c49b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\categories\\b2cf25c1-d6d5-4760-8245-04c534b6d888.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\b2cf25c1-d6d5-4760-8245-04c534b6d888.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\categories\\f653c8f8-cdf0-4a6c-86c2-6b34e375f2ee.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\f653c8f8-cdf0-4a6c-86c2-6b34e375f2ee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\highlights\\bird-1.jpg",
+      "PackagePath": "staticwebassets\\images\\highlights\\bird-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\highlights\\dragon-8.jpg",
+      "PackagePath": "staticwebassets\\images\\highlights\\dragon-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\highlights\\turtle-2.jpg",
+      "PackagePath": "staticwebassets\\images\\highlights\\turtle-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\icons\\cart-icon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\cart-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\icons\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\icons\\logo.png",
+      "PackagePath": "staticwebassets\\images\\icons\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\icons\\user-icon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\user-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\icons\\youtube-icon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\youtube-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\payments-image-placeholder.jpg",
+      "PackagePath": "staticwebassets\\images\\payments-image-placeholder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\products\\3fb47fa4-eeea-411f-a415-93b41154a8f9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\3fb47fa4-eeea-411f-a415-93b41154a8f9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\products\\502fee26-e4c9-4c19-9bf6-eec7d458d8f9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\502fee26-e4c9-4c19-9bf6-eec7d458d8f9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\products\\56240dbb-9a33-4059-bb8b-93a5a5336cfa.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\56240dbb-9a33-4059-bb8b-93a5a5336cfa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\products\\58545fff-60bd-4c2e-88cc-45a6fc46bb0d.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\58545fff-60bd-4c2e-88cc-45a6fc46bb0d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\products\\78460e7a-a085-4d9e-b29a-2360456359b6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\78460e7a-a085-4d9e-b29a-2360456359b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\products\\7f62c945-3042-43a0-840a-e3c7660d2713.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\7f62c945-3042-43a0-840a-e3c7660d2713.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\products\\814275c8-0142-432b-a2b0-38a061408560.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\814275c8-0142-432b-a2b0-38a061408560.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\products\\b31ab348-460f-42a8-9c17-cfac6da05b6a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b31ab348-460f-42a8-9c17-cfac6da05b6a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\products\\c06ca853-4b54-4857-ab3f-7146ae5c5253.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\c06ca853-4b54-4857-ab3f-7146ae5c5253.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\products\\efb2c0ba-052e-4ec6-93b5-741425fb773d.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\efb2c0ba-052e-4ec6-93b5-741425fb773d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\images\\products\\fa991a4b-4ff2-4180-aa0c-59978289aca8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fa991a4b-4ff2-4180-aa0c-59978289aca8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GlimG\\source\\repos\\MythMaker\\MythMaker\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MythMaker.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MythMaker.props",
+      "PackagePath": "build\\MythMaker.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MythMaker.props",
+      "PackagePath": "buildMultiTargeting\\MythMaker.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MythMaker.props",
+      "PackagePath": "buildTransitive\\MythMaker.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
